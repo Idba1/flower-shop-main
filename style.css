@@ -1,4 +1,97 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container * {
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.image {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.banner-heading {
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 13.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+button {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(77, 178, 23);
+    transition: 1s;
+}
+
+/* .featured-heading {
+    width: 445px;
+    height: 60px;
+} */
+
+.featured-heading h1 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.featured-heading p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+
 }
