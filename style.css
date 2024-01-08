@@ -252,6 +252,19 @@ button:hover {
     font-size: 20px;
     outline: none;
 }
+button {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+}
 
 .footer {
     background-color: black;
