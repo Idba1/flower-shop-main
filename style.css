@@ -147,3 +147,66 @@ button:hover {
     text-decoration-line: underline;
     padding: 30px;
 }
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 0px 80px;
+    max-width: 66%;
+    margin: 0 auto;
+    height: 200px;
+    align-items: center;
+}
+
+.service-container .service img {
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    align-items: center;
+}
+
+.service-container .service p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+
+}
+
+.service-1 {
+    text-align: center;
+}
+
+.service-2 {
+    text-align: center;
+}
+
+.service-3 {
+    text-align: center;
+}
+
+.off-pink {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+}
+.hot-paragraph{
+    padding: 50px;
+}
+.hot-image{
+    padding: 50px;
+    padding-top: 100px;
+}
