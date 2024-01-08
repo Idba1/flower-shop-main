@@ -210,12 +210,41 @@ button:hover {
     padding: 50px;
     padding-top: 100px;
 }
-.instagram{
-    
-}
+
 .image-rectangle{
     display: flex;
 }
-.image-rectangle img{
-  
+
+
+#newsletter{
+    margin: 128px 0;
+}
+.newsletter-main{
+    background-image: url('images/Rectangle\ 9.png');
+    padding: 180px;
+}
+.featured-heading h1 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+#newsletter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+
+#newsletter form input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
 }
